@@ -7,7 +7,8 @@ function Righthero() {
     const [firstName , setFirstName] = useState("");
     const [lastName , setLastName ] = useState("");
     const [phoneNumber , setPhoneNumber] = useState("");
-    const [email, setEmail] = useState("");    
+    const [email, setEmail] = useState("");
+    const [location, setLocation] = useState("");    
 
 
     data[0] = {
@@ -35,15 +36,22 @@ function Righthero() {
             <input type="email" name="email" id="email" value={email} onChange={(e) => {setEmail(e.target.value)}} placeholder="Email"/> <br/>
             <label htmlFor="phonenumber">Phone Number</label> <br></br>
             <input type="number" name="phonenumber" id="phonenumber" value={phoneNumber} onChange={(e) => {setPhoneNumber(e.target.value)}} placeholder="Phone Number"/>
+            <label htmlFor="location">Location</label> <br></br>
+            <input type="text" name="location" id="location" value={location} onChange={(e) => {setLocation(e.target.value)}} placeholder="Location"/>
             </section>
         </form>
         </div>
 
         <div className="cv">
-            <h1>{firstName}</h1>
-            <h1>{lastName}</h1>
-            <h1>{email}</h1>
-            <h1>{phoneNumber}</h1>
+            <div className="personal">
+                <p className="name">{firstName} {lastName}</p>
+                <div className="emailandphone">
+                    <p className="email"> ★ {email}</p>
+                    <p className="phone"> ★ {phoneNumber}</p>
+                    <p className="location"> ★ {location} </p>
+                </div>
+            </div>
+            <hr></hr>
         </div>
         </div>
     )

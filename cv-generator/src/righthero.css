@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+
 
 .hero {
-    margin: 2vh 2vw;
+    margin: 2vh 1vw;
     font-family: 'Josefin Sans', sans-serif;
     padding:2vh 2vw;
     height:80vh;
@@ -12,6 +14,21 @@
     align-items: center;
 }
 
+.cv {
+    background-color: #f1f0f2;
+    height: 80vh;
+    padding:12px;
+    flex:auto;
+    margin-left:32px;  
+    gap:24px;
+}
+
+.cv .personal {
+    background: #f1f0f2;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .form-wrapper {
     background-color:black;
@@ -36,14 +53,38 @@
     width:100%;
     padding:12px;
     height:3vh;
+    border-radius: 8px;
+    border: 1px solid white;
     margin:12px 0;
     background:none;
     outline:none;
     color:white;
-    border:none;
     transition: all 0.5s;
 }
 
+.cv .personal .emailandphone {
+    display:flex;
+    background-color: #f1f0f2;
+}
+
+.cv .personal .emailandphone p {
+    font-size: 1.1rem;
+    color:#ff59c7;
+    margin:12px;
+    background-color: #f1f0f2;
+}
+
+
+.cv .personal .name {
+    font-weight: 900;
+    color:#ff59c7;
+    margin:0;
+    font-size: 3rem;
+    background-color: #f1f0f2;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
 .form-wrapper form input:focus {
-    border-bottom: 1px solid #ff76d8;
+    border: 1px solid #ff76d8;
+    border-radius: 12px;
 }
