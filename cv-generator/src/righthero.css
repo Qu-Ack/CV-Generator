@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.hero {
+    margin: 2vh 2vw;
+    font-family: 'Josefin Sans', sans-serif;
+    padding:2vh 2vw;
+    height:80vh;
+    color:#ff94e0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .form-wrapper {
     background-color:black;
