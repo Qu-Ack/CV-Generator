@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+
+
+.navbar {
+    display:flex;
+    width:100vw;
+    height:10vh;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+
+}
+
+
+.navbar h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color:#ff59c7;
+    font-size: 2rem;
+}

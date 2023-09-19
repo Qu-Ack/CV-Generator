@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.form-wrapper {
+    background-color:black;
+    height:70vh;
+    width:30vw;
+    padding:16px;
+    border-radius: 2%;
+    font-family: 'Josefin Sans', sans-serif;
+    display:flex;
+}
+
+.form-wrapper form {
+    padding:20px;
+    width:100%;
+}
+
+.form-wrapper form label {
+    font-size: 1.2rem;
+}
+
+.form-wrapper form input {
+    width:100%;
+    padding:12px;
+    height:3vh;
+    margin:12px 0;
+    background:none;
+    outline:none;
+    color:white;
+    border:none;
+    transition: all 0.5s;
+}
+
+.form-wrapper form input:focus {
+    border-bottom: 1px solid #ff76d8;
+}
