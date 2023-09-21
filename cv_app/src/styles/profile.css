@@ -1,0 +1,16 @@
+.profile {
+    font-family: var(--font);
+}
+
+
+.profile .head {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+}   
+
+.profile .profilecontent {
+    font-size: 9px;
+    max-width: 20.625rem;
+    max-height:4rem;
+}
