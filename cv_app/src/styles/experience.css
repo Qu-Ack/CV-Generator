@@ -1,0 +1,38 @@
+.experience 
+{
+    font-family: var(--font);
+}
+
+.Heading 
+{
+    margin-bottom:8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.company {
+    font-size:10px;
+    margin-bottom:3px;
+    font-weight: bold;
+}
+
+.jobtitle
+{
+    font-size:9px;
+    margin-bottom: 5px;
+
+}
+
+.tasks {
+    margin-left:0px;
+    padding-left:15px;
+    list-style: circle;
+    font-size: 9px;
+}
+
+.dates 
+{
+    font-size:9px;
+    margin-bottom:8px;
+}
+
