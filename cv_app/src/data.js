@@ -28,6 +28,38 @@ export let data = {
                     "Designed both consumer and developer products for IFTTT",
                     "Responsible for maintaining design across iOS, Android, and web    "
                 ]
+            },
+            {
+                key:2,
+                companyname: "FaceBook",
+                jobtitle: "Software Engineer",
+                startdate: "Jun 2013",
+                enddate: "Sep 2015",
+                tasks: [
+                    "Designer and prototyped internal tools",
+                    "Worked with Privacy team to build assets and features",
+                    "Redesigned Newsfeed curation experience for mobile"
+                ]
+            },
+            {
+                key:3,
+                companyname: "Google Maps",
+                jobtitle: "Software Engineer",
+                startdate: "Jun 2012",
+                enddate: "Sep 2013",
+                tasks: [
+                    "Contributed to Maps on iOS wireframe ans user experience",
+                    "Designed and prototyped onboarding experience",
+                    "Asset and feature design for Maps on Android"
+                ]
+            }
+        ],
+        education:[
+            {
+                university:"Brown University",
+                course:"Interdisciplinary studies",
+                startdate:"Sep 2010",
+                enddate:"May 2013",
             }
         ]
     }

@@ -1,10 +1,10 @@
-import Experience from "./components/experience"
-import NavCv from "./components/navcv"
-import Profile from "./components/profile"
-import { data } from "./data"
+
+import CV from "./components/CV"
+
+
 function App() {
   return (
-    <Experience arr = {data.user.experience}/>
+    <CV/>
   )
 
 }

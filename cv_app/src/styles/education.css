@@ -1,0 +1,24 @@
+.education
+{
+    font-family: var(--font);
+}
+
+.Title
+{
+    font-size:15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.university 
+{
+    font-size:10px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.course {
+    margin-top: 0px;
+    font-size: 9px;
+}

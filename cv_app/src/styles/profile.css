@@ -1,5 +1,6 @@
 .profile {
     font-family: var(--font);
+    margin-top: 33px;
 }
 
 
@@ -7,6 +8,7 @@
     font-weight: bold;
     font-size: 15px;
     margin-bottom: 0.5rem;
+    margin-top: 0px;
 }   
 
 .profile .profilecontent {
