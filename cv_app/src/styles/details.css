@@ -1,0 +1,22 @@
+.personal {
+    font-family:var(--font);
+}
+
+.Title {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.Heading{
+    margin-top: 10px;
+    font-size:10px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.content 
+{
+    margin-top: 0px;
+    font-size: 10px;
+    
+}

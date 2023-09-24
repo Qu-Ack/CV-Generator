@@ -2,16 +2,23 @@ import NavCv from "./navcv";
 import Education from "./education";
 import Experience from "./experience";
 import Profile from "./profile";
-import { data } from "../data";
-function CV() 
+import SideBar from "./sidebar";
+import "../styles/cv.css"
+function CV({info}) 
 {
-   return (
+   return ( 
     <div className="cv">
-        <NavCv/>
+        <div className="non-side">
+        <NavCv info={info}/>
         <Profile/>
-        <Experience arr={data.user.experience}/>
-        <Education edarr={data.user.education}/>
+        <Experience arr={info.experience}/>
+        <Education edarr={info.education}/>
+        </div>
+        <div className="side">
+        <SideBar info={info}/>
+        </div>
     </div>
+
    )
 }
 

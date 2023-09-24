@@ -1,9 +1,9 @@
 import { useState } from "react"
-import { data } from "../data.js"
 import "../styles/navcv.css"
+import { data } from "../data";
 
-function NavCv() {
-    const [image, setImage] = useState(data.user.image);
+function NavCv({info}) {
+    const [image, setImage] = useState(info.image);
 
     return (
         <div className="nav-cv-container">
@@ -11,8 +11,8 @@ function NavCv() {
                 <img src={image}></img>
             </div>
             <div className="textcontainer">
-                <p className="name">{data.user.name}</p>
-                <p className="title">{data.user.title}</p>
+                <p className="name">{info.name}</p>
+                <p className="title">{info.title}</p>
             </div>
         </div>
     )

@@ -1,5 +1,5 @@
 export let data = {
-    user: {
+    
         image:"https://images.unsplash.com/photo-1694725411264-57731690bf1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2016&q=80",
         name:"Dan Hammer",
         title:"Software Engineer",
@@ -61,6 +61,11 @@ export let data = {
                 startdate:"Sep 2010",
                 enddate:"May 2013",
             }
-        ]
-    }
+        ],
+        address: "San Francisco, California",
+        phone:"(315) 802-8179",
+        email:"tstimbert@gmail.com",
+        linkedin:"https://www.linkedin.com",
+        instagram:"https://www.instagram.com",
+        
 }

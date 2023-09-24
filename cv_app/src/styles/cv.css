@@ -1,0 +1,16 @@
+.cv {
+    width:595px;
+    display:flex;
+}
+
+.non-side {
+    padding-top: 40px;
+    padding-left:40px;
+    flex:2;
+}
+.side {
+    padding-top:100px;
+    padding-left:30px;
+    background:linear-gradient(45deg, yellow, white);
+    flex:1;
+}
