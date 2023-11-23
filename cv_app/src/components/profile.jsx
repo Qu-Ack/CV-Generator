@@ -1,12 +1,10 @@
-
-import { data } from "../data"
 import "../styles/profile.css"
 
-function Profile() {
+function Profile({info}) {
     return (
         <div className="profile">
             <p className="head">Profile</p>
-            <p className="profilecontent">{data.profile}</p>
+            <p className="profilecontent">{info.profile}</p>
         </div>
     )
 }

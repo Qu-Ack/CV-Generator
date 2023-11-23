@@ -1,19 +1,13 @@
-import { useState } from "react";
-import { data } from "../data";
-import Education from "./education";
-import '../styles/formpersonal.css';
+import { useState } from "react"
 
-
-
-
-export default function FormPersonal({obj , test})
-{ 
+export default function FormExperience({obj , test}) 
+{
     const [show , setShow] = useState(false)
     return (
-        <div className="formpersonal">
+        <div className="formexperience">
         {show && <Help obj={obj} test={test}/>}
         <button onClick={() => setShow(!show)}>
-            Personal Details
+            Work Details
         </button>
         </div>
     )

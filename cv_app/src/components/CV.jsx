@@ -10,7 +10,7 @@ function CV({info})
     <div className="cv">
         <div className="non-side">
         <NavCv info={info}/>
-        <Profile/>
+        <Profile info={info}/>
         <Experience arr={info.experience}/>
         <Education edarr={info.education}/>
         </div>

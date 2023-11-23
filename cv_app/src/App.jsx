@@ -1,8 +1,8 @@
 import "./app.css"
 import CV from "./components/CV"
-import FormPersonal from "./components/formpersonal"
 import { data } from "./data";
 import { useState } from "react";
+import Form from "./components/Form";
 
 function App() {
 
@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="app">
       <CV info={obj}/>
-    <FormPersonal obj={obj} test={test}/>
+      <Form obj={obj} test={test}/>
     </div>
     
   )

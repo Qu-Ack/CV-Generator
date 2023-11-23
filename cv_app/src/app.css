@@ -1,4 +1,6 @@
 .app {
     display:flex;
+    gap:64px;
+    background-color: #ffffff;
     
 }

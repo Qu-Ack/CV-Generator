@@ -1,0 +1,23 @@
+.personal 
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.formpersonal button {
+    background-color: black;
+    border:none;
+    color:white;
+    padding:12px;
+    transition:all 0.25s;
+    width:100%;
+    font-weight: bold;
+}
+
+
+.formpersonal button:hover {
+    border-radius: 10px;
+    background-color: yellow;
+    color:black;
+    cursor:pointer;
+}
